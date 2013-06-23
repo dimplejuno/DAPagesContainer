@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC8A8F39-0404-471D-B860-385C68755C88</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DAPagesContainerDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4EA4015-542D-4270-A5F8-FC38FF3AAB13</key>
+		<string>ssh://github.com/dimplejuno/DAPagesContainer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DAPagesContainerDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4EA4015-542D-4270-A5F8-FC38FF3AAB13</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/dimplejuno/DAPagesContainer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4EA4015-542D-4270-A5F8-FC38FF3AAB13</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4EA4015-542D-4270-A5F8-FC38FF3AAB13</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DAPagesContainer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -9,6 +9,7 @@
 #import "DAViewController.h"
 
 #import "DAPagesContainer.h"
+#import "SPDDynamicDropMenuViewController.h"
 
 
 @interface DAViewController ()
@@ -23,6 +24,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.title = @"\"너의 목소리가 들려\"";
+    
     self.pagesContainer = [[DAPagesContainer alloc] init];
     [self.pagesContainer willMoveToParentViewController:self];
     self.pagesContainer.view.frame = self.view.bounds;
@@ -30,30 +34,22 @@
     [self.view addSubview:self.pagesContainer.view];
     [self.pagesContainer didMoveToParentViewController:self];
     
-    UIViewController *beaverViewController = [[UIViewController alloc] init];
-    UIImageView *beaverImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"beaver.jpg"]];
-    beaverImageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
-    [beaverViewController.view addSubview:beaverImageView];
-    beaverViewController.title = @"BEAVER";
+    SPDDynamicDropMenuViewController *beaverViewController = [[SPDDynamicDropMenuViewController alloc] init];
+    beaverViewController.menuImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LBY"]];
+    beaverViewController.title = @"이보영";
     
-    UIViewController *buckDeerViewController = [[UIViewController alloc] init];
-    UIImageView *buckDeerImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"buckDeer.jpg"]];
-    buckDeerImageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
-    [buckDeerViewController.view addSubview:buckDeerImageView];
-    buckDeerViewController.title = @"BUCK DEER";
     
-    UIViewController *catViewController = [[UIViewController alloc] init];
-    UIImageView *catImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cat.jpg"]];
-    catImageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
-    [catViewController.view addSubview:catImageView];
-    catViewController.title = @"CAT";
+    SPDDynamicDropMenuViewController *buckDeerViewController = [[SPDDynamicDropMenuViewController alloc] init];
+    buckDeerViewController.menuImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LJS"]];
+    buckDeerViewController.title = @"이종석";
     
-    UIViewController *lionViewController = [[UIViewController alloc] init];
-    UIImageView *lionImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"lion.jpg"]];
-    lionImageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
-    [lionViewController.view addSubview:lionImageView];
-    lionViewController.title = @"REALLY CUTE LION";
-
+    SPDDynamicDropMenuViewController *catViewController = [[SPDDynamicDropMenuViewController alloc] init];
+    catViewController.menuImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"YSH"]];
+    catViewController.title = @"윤상현";
+    
+    SPDDynamicDropMenuViewController *lionViewController = [[SPDDynamicDropMenuViewController alloc] init];
+    lionViewController.menuImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LDH"]];
+    lionViewController.title = @"이다희";
     self.pagesContainer.viewControllers = @[beaverViewController, buckDeerViewController, catViewController, lionViewController];
 }
 

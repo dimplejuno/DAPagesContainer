@@ -10,6 +10,7 @@
 
 #import "DAPagesContainerTopBar.h"
 #import "DAPageIndicatorView.h"
+#import "SPDDynamicDropMenuViewController.h"
 
 
 @interface DAPagesContainer () <DAPagesContainerTopBarDelegate, UIScrollViewDelegate>
@@ -119,6 +120,11 @@
 
 - (void)setSelectedIndex:(NSUInteger)selectedIndex animated:(BOOL)animated
 {
+    
+    for(SPDDynamicDropMenuViewController *controller in self.viewControllers) {
+        [controller resetPosition];
+    }
+    
     UIButton *previosSelectdItem = self.topBar.itemViews[self.selectedIndex];
     UIButton *nextSelectdItem = self.topBar.itemViews[selectedIndex];
     if (abs(self.selectedIndex - selectedIndex) <= 1) {

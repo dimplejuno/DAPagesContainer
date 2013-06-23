@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23EDB7CF1776D86F006C64A0 /* SPDDynamicDropMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EDB7CE1776D86F006C64A0 /* SPDDynamicDropMenuViewController.m */; };
+		23EDB7D11776DC74006C64A0 /* LBY@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EDB7D01776DC74006C64A0 /* LBY@2x.png */; };
+		23EDB7D31776DC82006C64A0 /* LDH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EDB7D21776DC82006C64A0 /* LDH@2x.png */; };
+		23EDB7D51776DC8A006C64A0 /* LJS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EDB7D41776DC8A006C64A0 /* LJS@2x.png */; };
+		23EDB7D71776DC93006C64A0 /* YSH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EDB7D61776DC93006C64A0 /* YSH@2x.png */; };
 		43222CA61768E4590088986F /* DAPageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43222CA11768E4590088986F /* DAPageIndicatorView.m */; };
 		43222CA71768E4590088986F /* DAPagesContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43222CA31768E4590088986F /* DAPagesContainer.m */; };
 		43222CA81768E4590088986F /* DAPagesContainerTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 43222CA51768E4590088986F /* DAPagesContainerTopBar.m */; };
@@ -27,6 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23EDB7CD1776D86F006C64A0 /* SPDDynamicDropMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDDynamicDropMenuViewController.h; sourceTree = "<group>"; };
+		23EDB7CE1776D86F006C64A0 /* SPDDynamicDropMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDDynamicDropMenuViewController.m; sourceTree = "<group>"; };
+		23EDB7D01776DC74006C64A0 /* LBY@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LBY@2x.png"; sourceTree = SOURCE_ROOT; };
+		23EDB7D21776DC82006C64A0 /* LDH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LDH@2x.png"; sourceTree = SOURCE_ROOT; };
+		23EDB7D41776DC8A006C64A0 /* LJS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LJS@2x.png"; sourceTree = SOURCE_ROOT; };
+		23EDB7D61776DC93006C64A0 /* YSH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YSH@2x.png"; sourceTree = SOURCE_ROOT; };
 		43222CA01768E4590088986F /* DAPageIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAPageIndicatorView.h; path = DAPagesContainer/DAPageIndicatorView.h; sourceTree = "<group>"; };
 		43222CA11768E4590088986F /* DAPageIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAPageIndicatorView.m; path = DAPagesContainer/DAPageIndicatorView.m; sourceTree = "<group>"; };
 		43222CA21768E4590088986F /* DAPagesContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAPagesContainer.h; path = DAPagesContainer/DAPagesContainer.h; sourceTree = "<group>"; };
@@ -128,6 +139,8 @@
 		438BA8A9175785BB0033EB2D /* DAPagesContainer */ = {
 			isa = PBXGroup;
 			children = (
+				23EDB7CD1776D86F006C64A0 /* SPDDynamicDropMenuViewController.h */,
+				23EDB7CE1776D86F006C64A0 /* SPDDynamicDropMenuViewController.m */,
 				43222CA21768E4590088986F /* DAPagesContainer.h */,
 				43222CA31768E4590088986F /* DAPagesContainer.m */,
 				43222CA41768E4590088986F /* DAPagesContainerTopBar.h */,
@@ -141,6 +154,10 @@
 		438BA8B6175786240033EB2D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				23EDB7D61776DC93006C64A0 /* YSH@2x.png */,
+				23EDB7D41776DC8A006C64A0 /* LJS@2x.png */,
+				23EDB7D21776DC82006C64A0 /* LDH@2x.png */,
+				23EDB7D01776DC74006C64A0 /* LBY@2x.png */,
 				43222CBA1768E49F0088986F /* beaver.jpg */,
 				43222CBB1768E49F0088986F /* buckDeer.jpg */,
 				43222CBC1768E49F0088986F /* cat.jpg */,
@@ -202,6 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				43222CB61768E48E0088986F /* Default-568h@2x.png in Resources */,
+				23EDB7D31776DC82006C64A0 /* LDH@2x.png in Resources */,
+				23EDB7D11776DC74006C64A0 /* LBY@2x.png in Resources */,
+				23EDB7D71776DC93006C64A0 /* YSH@2x.png in Resources */,
+				23EDB7D51776DC8A006C64A0 /* LJS@2x.png in Resources */,
 				43222CB71768E48E0088986F /* Default.png in Resources */,
 				43222CB81768E48E0088986F /* Default@2x.png in Resources */,
 				43222CBE1768E49F0088986F /* beaver.jpg in Resources */,
@@ -226,6 +247,7 @@
 				43222CAD1768E4770088986F /* DAAppDelegate.m in Sources */,
 				43222CAE1768E4770088986F /* DAViewController.m in Sources */,
 				43222CB91768E48E0088986F /* main.m in Sources */,
+				23EDB7CF1776D86F006C64A0 /* SPDDynamicDropMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +298,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -300,7 +322,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -313,7 +335,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DAPagesContainerDemo/DAPagesContainerDemo-Prefix.pch";
 				INFOPLIST_FILE = "DAPagesContainerDemo/DAPagesContainerDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = DAPagesContainerDemo;
 				WRAPPER_EXTENSION = app;
 			};
@@ -325,7 +347,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DAPagesContainerDemo/DAPagesContainerDemo-Prefix.pch";
 				INFOPLIST_FILE = "DAPagesContainerDemo/DAPagesContainerDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = DAPagesContainerDemo;
 				WRAPPER_EXTENSION = app;
 			};
